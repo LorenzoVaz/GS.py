@@ -1,0 +1,58 @@
+Nome: Lorenzo Augusto RM 553941
+Nome: Jose neto RM 553844
+Nome: Vinicius Maia RM 552969
+
+
+Este código implementa um sistema simples de gestão de saúde utilizando Python. O sistema oferece diversas funcionalidades relacionadas ao gerenciamento de pacientes e consultas. Abaixo estão as principais funcionalidades disponíveis no sistema:
+
+Funcionalidades
+Limpeza de Terminal
+
+O código inicia com a limpeza do terminal para proporcionar uma experiência de usuário mais limpa e organizada.
+Menu Principal
+
+O sistema apresenta um menu principal com as seguintes opções:
+Cadastrar Cliente
+Triagem
+Dados do Cliente
+Plano de Saúde
+Agendar Consulta
+Mostrar Clientes
+Gerar Relatório
+Sair
+Cadastro de Cliente
+
+Permite o cadastro de novos clientes, solicitando informações como nome, idade, RG, CPF, data de nascimento, e outros dados pessoais.
+Triagem
+
+Realiza uma triagem básica com base em sintomas informados pelo usuário, avaliando a gravidade dos sintomas e fornecendo recomendações.
+Dados do Cliente
+
+Permite ao usuário logar e visualizar seus dados cadastrados, incluindo informações como endereço, número de telefone, e plano de saúde.
+Plano de Saúde
+
+Exibe informações sobre o plano de saúde oferecido pela empresa Hapvida, destacando seus diferenciais e benefícios.
+Agendar Consulta
+
+Oferece a possibilidade de agendar consultas, apresentando especialidades médicas, médicos disponíveis, e horários para escolha.
+Mostrar Clientes Cadastrados
+
+Exibe a lista de clientes cadastrados no sistema.
+Gerar Relatório
+
+Gera um relatório contendo informações sobre a quantidade de clientes cadastrados, seus nomes, e a data de geração do relatório.
+Encerramento
+
+Permite ao usuário sair do sistema, exibindo uma mensagem de agradecimento.
+Arquivos e Módulos
+O código importa um módulo chamado defs que contém funções utilizadas no código principal.
+O arquivo valida.py contém funções para validação de dados durante o cadastro.
+O arquivo agenda_medica contém informações sobre especialidades médicas, médicos disponíveis, e horários de consulta.
+Execução
+A execução do sistema é contínua por meio de um loop while True, permitindo que o usuário selecione diferentes opções do menu até optar por sair.
+Observações
+O código inclui mensagens coloridas no terminal para destacar informações importantes.
+Os dados dos clientes são armazenados em um arquivo de texto chamado logins.txt.
+As consultas são agendadas com base em uma agenda médica pré-definida no arquivo agenda_medica.
+Algumas funcionalidades, como o cadastro, login, e exibição de dados, dependem de validações definidas no arquivo valida.py.
+Esse sistema proporciona uma maneira simples e interativa de gerenciar informações relacionadas à saúde e consultas médicas.
